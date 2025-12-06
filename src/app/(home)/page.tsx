@@ -8,10 +8,11 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="flex flex-1 flex-col justify-center py-20 px-4 mx-auto w-full max-w-[var(--fd-layout-width)]">
         <div className="max-w-4xl">
-          <h1 className="mb-6 text-4xl md:text-5xl lg:text-6xl font-normal leading-tight">
-            <Icon icon="mdi:arch" className="inline-block mr-2" width={75} height={75} /> UmmItOS
+          <h1 className="mb-6 text-4xl md:text-5xl lg:text-6xl font-normal leading-tight flex items-center">
+            <Icon icon="mdi:arch" className="inline-block mr-2" width={75} height={75} />
+            <span style={{ fontFamily: "'Bitcount Grid Double', monospace", fontSize: '75px', fontWeight: 600 }}>UmmItOS</span>
           </h1>
-          <p className="text-lg md:text-xl text-fd-muted-foreground max-w-2xl mb-10">
+          <p className="text-lg md:text-xl text-fd-muted-foreground max-w-2xl mb-10" style={{ fontFamily: "'Fredoka', sans-serif", fontWeight: 400 }}>
             UmmItOS — a minimal, blazing-fast Arch Linux setup crafted for power users and enthusiasts.
           </p>
           <div className="flex flex-wrap gap-4">
